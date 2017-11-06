@@ -5,55 +5,55 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-06 08:24:58</sys_created_on>
-            <sys_id>71c369490f920300be608e8ce1050e52</sys_id>
+            <sys_created_on>2017-11-06 08:53:04</sys_created_on>
+            <sys_id>553aad0d0f920300be608e8ce1050e18</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_139317_eleave2_eleave" sys_domain="global" view="Default view">fdc369490f920300be608e8ce1050e50</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-06 08:24:58</sys_updated_on>
+            <sys_updated_on>2017-11-06 08:53:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assigned_to</element>
+            <element>approver</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-06 08:24:58</sys_created_on>
-            <sys_id>79c369490f920300be608e8ce1050e52</sys_id>
+            <sys_created_on>2017-11-06 08:53:04</sys_created_on>
+            <sys_id>d53aad0d0f920300be608e8ce1050e18</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_139317_eleave2_eleave" sys_domain="global" view="Default view">fdc369490f920300be608e8ce1050e50</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-06 08:24:58</sys_updated_on>
+            <sys_updated_on>2017-11-06 08:53:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cmdb_ci</element>
+            <element>u_leave_type</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-06 08:24:58</sys_created_on>
-            <sys_id>f9c369490f920300be608e8ce1050e52</sys_id>
+            <sys_created_on>2017-11-06 08:53:04</sys_created_on>
+            <sys_id>593aad0d0f920300be608e8ce1050e18</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_139317_eleave2_eleave" sys_domain="global" view="Default view">fdc369490f920300be608e8ce1050e50</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-06 08:24:58</sys_updated_on>
+            <sys_updated_on>2017-11-06 08:53:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>active</element>
+            <element>u_leave_from</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-06 08:24:58</sys_created_on>
-            <sys_id>7dc369490f920300be608e8ce1050e52</sys_id>
+            <sys_created_on>2017-11-06 08:53:04</sys_created_on>
+            <sys_id>d93aad0d0f920300be608e8ce1050e18</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_139317_eleave2_eleave" sys_domain="global" view="Default view">fdc369490f920300be608e8ce1050e50</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-06 08:24:58</sys_updated_on>
+            <sys_updated_on>2017-11-06 08:53:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,111 +61,69 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-06 08:24:58</sys_created_on>
-            <sys_id>fdc369490f920300be608e8ce1050e52</sys_id>
+            <sys_created_on>2017-11-06 08:53:04</sys_created_on>
+            <sys_id>5d3aad0d0f920300be608e8ce1050e18</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_139317_eleave2_eleave" sys_domain="global" view="Default view">fdc369490f920300be608e8ce1050e50</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-06 08:24:58</sys_updated_on>
+            <sys_updated_on>2017-11-06 08:53:04</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>priority</element>
+            <element>request_for</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-06 08:24:58</sys_created_on>
-            <sys_id>71c369490f920300be608e8ce1050e53</sys_id>
+            <sys_created_on>2017-11-06 08:53:04</sys_created_on>
+            <sys_id>dd3aad0d0f920300be608e8ce1050e18</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_139317_eleave2_eleave" sys_domain="global" view="Default view">fdc369490f920300be608e8ce1050e50</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-06 08:24:58</sys_updated_on>
+            <sys_updated_on>2017-11-06 08:53:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_remain_leaves</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-06 08:53:04</sys_created_on>
+            <sys_id>513aad0d0f920300be608e8ce1050e19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_139317_eleave2_eleave" sys_domain="global" view="Default view">fdc369490f920300be608e8ce1050e50</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-06 08:53:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-06 08:24:58</sys_created_on>
-            <sys_id>f1c369490f920300be608e8ce1050e53</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_139317_eleave2_eleave" sys_domain="global" view="Default view">fdc369490f920300be608e8ce1050e50</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-06 08:24:58</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>parent</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-06 08:24:58</sys_created_on>
-            <sys_id>75c369490f920300be608e8ce1050e53</sys_id>
+            <sys_created_on>2017-11-06 08:53:04</sys_created_on>
+            <sys_id>d13aad0d0f920300be608e8ce1050e19</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_139317_eleave2_eleave" sys_domain="global" view="Default view">fdc369490f920300be608e8ce1050e50</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-06 08:24:58</sys_updated_on>
+            <sys_updated_on>2017-11-06 08:53:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
+            <element>u_leave_to</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-06 08:24:58</sys_created_on>
-            <sys_id>f5c369490f920300be608e8ce1050e53</sys_id>
+            <sys_created_on>2017-11-06 08:53:04</sys_created_on>
+            <sys_id>553aad0d0f920300be608e8ce1050e19</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_139317_eleave2_eleave" sys_domain="global" view="Default view">fdc369490f920300be608e8ce1050e50</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-06 08:24:58</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>short_description</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-06 08:24:58</sys_created_on>
-            <sys_id>79c369490f920300be608e8ce1050e53</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_139317_eleave2_eleave" sys_domain="global" view="Default view">fdc369490f920300be608e8ce1050e50</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-06 08:24:58</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
-            <position>10</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-06 08:24:58</sys_created_on>
-            <sys_id>f9c369490f920300be608e8ce1050e53</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_139317_eleave2_eleave" sys_domain="global" view="Default view">fdc369490f920300be608e8ce1050e50</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-06 08:24:58</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>work_notes</element>
-            <position>11</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-06 08:24:58</sys_created_on>
-            <sys_id>7dc369490f920300be608e8ce1050e53</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_139317_eleave2_eleave" sys_domain="global" view="Default view">fdc369490f920300be608e8ce1050e50</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-06 08:24:58</sys_updated_on>
+            <sys_updated_on>2017-11-06 08:53:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

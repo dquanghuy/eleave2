@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_reason" label="Reason" language="en" table="x_139317_eleave2_eleave">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_reason</element>
+            <help/>
+            <hint/>
+            <label>Reason</label>
+            <language>en</language>
+            <name>x_139317_eleave2_eleave</name>
+            <plural>Reasons</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-06 08:49:57</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b779e50d0f920300be608e8ce1050ed4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Reason</sys_name>
+            <sys_package display_value="eLeave2" source="x_139317_eleave2">f95165450f920300be608e8ce1050ec0</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="eLeave2">f95165450f920300be608e8ce1050ec0</sys_scope>
+            <sys_update_name>sys_documentation_x_139317_eleave2_eleave_u_reason_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-06 08:49:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

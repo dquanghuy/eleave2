@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="eleave" max_length="40" name="x_139317_eleave2_eleave" type="collection"/>
+    <element extends="task" label="eleave" max_length="40" name="x_139317_eleave2_eleave" type="collection">
+        <element label="Approver" mandatory="true" max_length="32" name="approver" reference="sys_user" type="reference"/>
+        <element label="Request For" mandatory="true" max_length="32" name="request_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Comment" max_length="40" name="u_comment" type="string"/>
+        <element label="From" mandatory="true" max_length="40" name="u_leave_from" type="glide_date"/>
+        <element label="To" mandatory="true" max_length="40" name="u_leave_to" type="glide_date"/>
+        <element choice="1" default="0" label="Leave Type" mandatory="true" max_length="40" name="u_leave_type" type="integer">
+            <choice>
+                <element label="Annual Leave" sequence="0" value="0"/>
+                <element label="Personal leave - Funeral" sequence="1" value="1"/>
+                <element label="Personal leave - Wedding" sequence="2" value="2"/>
+                <element label="Personal leave - Wedding For Child" sequence="3" value="3"/>
+                <element label="Unpaid - Children Sickness Leave" sequence="4" value="4"/>
+                <element label="Unpaid - Prenatal Check-up Leave" sequence="5" value="5"/>
+                <element label="Unpaid - Sickness Leave" sequence="6" value="6"/>
+                <element label="Unpaid Leave" sequence="7" value="7"/>
+                <element label="OT Reimbursement" sequence="8" value="8"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Reason" max_length="40" name="u_reason" type="string"/>
+        <element label="Remains" max_length="40" name="u_remain_leaves" type="integer"/>
+    </element>
 </database>
