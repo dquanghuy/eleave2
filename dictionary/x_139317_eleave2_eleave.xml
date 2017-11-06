@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="eleave" max_length="40" name="x_139317_eleave2_eleave" type="collection"/>
+</database>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>eLeave2</name>
+        <order/>
+        <roles>x_139317_eleave2.eleave_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-06 08:23:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0e63a5490f920300be608e8ce1050e22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>eLeave2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="eLeave2" source="x_139317_eleave2">f95165450f920300be608e8ce1050ec0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="eLeave2">f95165450f920300be608e8ce1050ec0</sys_scope>
+        <sys_update_name>sys_ui_application_0e63a5490f920300be608e8ce1050e22</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-06 08:23:21</sys_updated_on>
+    </sys_ui_application>
+</record_update>
