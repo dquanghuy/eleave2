@@ -20,6 +20,6 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Reason" max_length="40" name="u_reason" type="string"/>
-        <element label="Remains" max_length="40" name="u_remain_leaves" type="integer"/>
+        <element label="Remains" max_length="40" name="u_remain_leaves" read_only="true" type="integer"/>
     </element>
 </database>
