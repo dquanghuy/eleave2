@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_139317_eleave2.eLeave2Ultis</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>eLeave2Ultis</name>
+        <script><![CDATA[var eLeave2Ultis = Class.create();
+eLeave2Ultis.prototype = {
+    initialize: function() {
+    },
+	diffDate: function(gdt1, gdt2)
+	{
+		var diff = 0;
+
+		var diffYear = gdt1.getYearUTC() - gdt2.getYearUTC();
+		var diffMonth = gdt1.getMonthUTC() - gdt2.getMonthUTC();
+		var diffDay = gdt1.getDayOfMonthUTC() - gdt2.getDayOfMonthUTC();
+
+		diff = diffYear * 360 + diffMonth * 30 + diffDay;
+
+		return diff;
+	},
+    type: 'eLeave2Ultis'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-07 06:58:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ee5996590f9a0300be608e8ce1050e3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>eLeave2Ultis</sys_name>
+        <sys_package display_value="eLeave2" source="x_139317_eleave2">f95165450f920300be608e8ce1050ec0</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="eLeave2">f95165450f920300be608e8ce1050ec0</sys_scope>
+        <sys_update_name>sys_script_include_ee5996590f9a0300be608e8ce1050e3f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-07 06:58:20</sys_updated_on>
+    </sys_script_include>
+</record_update>
