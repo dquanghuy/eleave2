@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_139317_eleave2.GetUserAvailableLeaves</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>GetUserAvailableLeaves</name>
+        <script><![CDATA[var GetUserAvailableLeaves = Class.create();
+GetUserAvailableLeaves.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	GetUserAvailableLeaves: function() {
+		gs.info('eLeave2 - GetUserAvailableLeaves called');
+		var defaultAnualLeaveDays = gs.getProperty('x_139317_eleave2.DefaultAnualLeaveDays');
+		gs.info('eLeave2 - GetUserAvailableLeaves: ' + defaultAnualLeaveDays);
+		var num = defaultAnualLeaveDays;
+		return num;
+	},
+    type: 'GetUserAvailableLeaves'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-07 07:43:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5ca3e29d0f9a0300be608e8ce1050e8e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>GetUserAvailableLeaves</sys_name>
+        <sys_package display_value="eLeave2" source="x_139317_eleave2">f95165450f920300be608e8ce1050ec0</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="eLeave2">f95165450f920300be608e8ce1050ec0</sys_scope>
+        <sys_update_name>sys_script_include_5ca3e29d0f9a0300be608e8ce1050e8e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-07 07:54:29</sys_updated_on>
+    </sys_script_include>
+</record_update>
