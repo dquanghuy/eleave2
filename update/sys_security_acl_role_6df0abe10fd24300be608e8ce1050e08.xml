@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-08 06:48:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6df0abe10fd24300be608e8ce1050e08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_139317_eleave2_employees.x_139317_eleave2.employees_user</sys_name>
+        <sys_package display_value="eLeave2" source="x_139317_eleave2">f95165450f920300be608e8ce1050ec0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="eLeave2">f95165450f920300be608e8ce1050ec0</sys_scope>
+        <sys_security_acl display_value="x_139317_eleave2_employees">edf0abe10fd24300be608e8ce1050e05</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6df0abe10fd24300be608e8ce1050e08</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-08 06:48:52</sys_updated_on>
+        <sys_user_role display_value="x_139317_eleave2.employees_user" name="x_139317_eleave2.employees_user">15f06be10fd24300be608e8ce1050edf</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

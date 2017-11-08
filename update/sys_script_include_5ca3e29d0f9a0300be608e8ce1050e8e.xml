@@ -12,10 +12,37 @@ GetUserAvailableLeaves.prototype = Object.extendsObject(global.AbstractAjaxProce
 	GetUserAvailableLeaves: function() {
 		var userId = this.getParameter('sysparm_user_id');
 		gs.info('eLeave2 - GetUserAvailableLeaves called for user ' + userId);
-		var defaultAnualLeaveDays = gs.getProperty('x_139317_eleave2.DefaultAnualLeaveDays');
+		
+		var employees = new GlideRecord('x_139317_eleave2_employees');
+		employees.addQuery('user', userId);
+		employees.query();
+		
+		var remainLeaves = 0;
+		var employeeFound = false;
+		
+		while (employees.next()) { 
+			employeeFound = true;
+			remainLeaves = employees.available_leaves;
+			gs.info('eLeave2 - GetUserAvailableLeaves found employee for user ' + userId);
+		}
+		
+				var defaultAnualLeaveDays = gs.getProperty('x_139317_eleave2.DefaultAnualLeaveDays');
 		gs.info('eLeave2 - GetUserAvailableLeaves: ' + defaultAnualLeaveDays);
-		var num = defaultAnualLeaveDays;
-		return num;
+
+		if(!employeeFound)
+			{
+				var newEmployee = new GlideRecord('x_139317_eleave2_employees');
+				newEmployee.initialize();
+				newEmployee.user = userId; 
+				newEmployee.available_leaves = defaultAnualLeaveDays;				
+				newEmployee.insert();
+				
+				remainLeaves = defaultAnualLeaveDays;
+				gs.info('eLeave2 - GetUserAvailableLeaves not-found employee for user ' + userId);
+			}
+			
+		 
+		return remainLeaves;
 	},
     type: 'GetUserAvailableLeaves'
 });]]></script>
@@ -24,7 +51,7 @@ GetUserAvailableLeaves.prototype = Object.extendsObject(global.AbstractAjaxProce
         <sys_created_on>2017-11-07 07:43:33</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>5ca3e29d0f9a0300be608e8ce1050e8e</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>GetUserAvailableLeaves</sys_name>
         <sys_package display_value="eLeave2" source="x_139317_eleave2">f95165450f920300be608e8ce1050ec0</sys_package>
         <sys_policy>read</sys_policy>
@@ -32,6 +59,6 @@ GetUserAvailableLeaves.prototype = Object.extendsObject(global.AbstractAjaxProce
         <sys_scope display_value="eLeave2">f95165450f920300be608e8ce1050ec0</sys_scope>
         <sys_update_name>sys_script_include_5ca3e29d0f9a0300be608e8ce1050e8e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-08 03:13:59</sys_updated_on>
+        <sys_updated_on>2017-11-08 07:30:35</sys_updated_on>
     </sys_script_include>
 </record_update>

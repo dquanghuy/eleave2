@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="employees" max_length="40" name="x_139317_eleave2_employees" type="collection">
+        <element label="Available Leaves" max_length="40" name="available_leaves" type="integer"/>
+        <element label="Last Update" max_length="40" name="last_update" type="glide_date"/>
+        <element label="Used Leaves" max_length="40" name="used_leaves" type="integer"/>
+        <element label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>
