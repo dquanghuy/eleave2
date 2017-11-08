@@ -16,10 +16,11 @@
    }
 
    //Type appropriate comment here, and begin script below
-	//alert('getUserAvailableLeaves');
+	//alert(newValue);
 	// Instantiate the GetManager Script Include 
 	var getUserAvailableLeaves = new GlideAjax('GetUserAvailableLeaves');
 	getUserAvailableLeaves.addParam('sysparm_name','GetUserAvailableLeaves');
+	getUserAvailableLeaves.addParam('sysparm_user_id', newValue);
 	
 	// Send the request to the server
 	getUserAvailableLeaves.getXML(GetUserAvailableLeavesCallback);
@@ -36,7 +37,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f4342a9d0f9a0300be608e8ce1050e07</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>OnRequestForChanged</sys_name>
         <sys_overrides/>
         <sys_package display_value="eLeave2" source="x_139317_eleave2">f95165450f920300be608e8ce1050ec0</sys_package>
@@ -45,7 +46,7 @@
         <sys_scope display_value="eLeave2">f95165450f920300be608e8ce1050ec0</sys_scope>
         <sys_update_name>sys_script_client_f4342a9d0f9a0300be608e8ce1050e07</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-07 08:07:02</sys_updated_on>
+        <sys_updated_on>2017-11-08 03:13:05</sys_updated_on>
         <table>x_139317_eleave2_eleave</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

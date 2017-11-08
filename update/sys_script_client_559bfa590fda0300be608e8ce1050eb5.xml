@@ -14,7 +14,20 @@
    //Type appropriate comment here, and begin script below
    if(g_form.isNewRecord()){
 	   g_form.setValue('request_for', g_user.userID);	   
+	   
+	   // Instantiate the GetManager Script Include 
+	var getUserAvailableLeaves = new GlideAjax('GetUserAvailableLeaves');
+	getUserAvailableLeaves.addParam('sysparm_name','GetUserAvailableLeaves');
+	getUserAvailableLeaves.addParam('sysparm_user_id',g_user.userID);
+	   
+	// Send the request to the server
+	getUserAvailableLeaves.getXML(GetUserAvailableLeavesCallback);   
    }
+	
+	function GetUserAvailableLeavesCallback(response) {
+		var val = response.responseXML.documentElement.getAttribute("answer");
+		g_form.setValue('u_remain_leaves', val);
+	}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -23,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>559bfa590fda0300be608e8ce1050eb5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>OnLoad</sys_name>
         <sys_overrides/>
         <sys_package display_value="eLeave2" source="x_139317_eleave2">f95165450f920300be608e8ce1050ec0</sys_package>
@@ -32,7 +45,7 @@
         <sys_scope display_value="eLeave2">f95165450f920300be608e8ce1050ec0</sys_scope>
         <sys_update_name>sys_script_client_559bfa590fda0300be608e8ce1050eb5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-07 09:28:46</sys_updated_on>
+        <sys_updated_on>2017-11-08 03:12:26</sys_updated_on>
         <table>x_139317_eleave2_eleave</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="eleave" max_length="40" name="x_139317_eleave2_eleave" type="collection">
+    <element extends="task" label="eleave" max_length="40" name="x_139317_eleave2_eleave" sizeclass="3" type="collection">
         <element label="Approver" mandatory="true" max_length="32" name="approver" reference="sys_user" type="reference"/>
         <element label="Request For" mandatory="true" max_length="32" name="request_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Comment" max_length="40" name="u_comment" type="string"/>
